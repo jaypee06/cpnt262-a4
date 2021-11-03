@@ -17,7 +17,7 @@ const toF = function (num1){
 //Formula to convert fahrenheit to celcius
 const toC = function(num2){
     answer = (num2 - 32) * 5/9
-    console.log(chalk.green(`${num2}°F to Celcius =  ${answer}°C` ))
+    console.log(chalk.green(`${num2}°F to Fahrenheit =  ${answer}°C` ))
 }
 //Convertion to Fahrenheit
 
